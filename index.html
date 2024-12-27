@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css section start -->
+    
+    <!-- google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- google fonts end -->
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- css section end -->
+    <title>First JS project</title>
+</head>
+
+<body>
+    
+    <div class="bulb" style="background-image: url(imges/neon-sign-brick-wall-background-3d-illustration_334678-731.avif);" >
+        <h2 class="mc">use the button to turn on / off the light bulb</h2>
+
+        <button class="bon" onclick="document.getElementById('image one').src='imges/pic_bulbon_light.gif' "> ON </button>
+        <img src="imges/pic_bulboff.gif" alt="bulb" id="image one">
+        <button class="boff" onclick="document.getElementById('image one').src='imges/pic_bulboff.gif' "> OFF </button>
+    <div class="time">
+        <h2 id="info">Click here to show the date and time</h2>
+        <button class="clock" onclick="document.getElementById('info').innerHTML = Date()"> Click Me </button>
+    </div>
+    </div>
+
+
+<script src="JS/main.js"></script>
+</body>
+</html>
